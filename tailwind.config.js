@@ -14,6 +14,7 @@ export default {
         lightText: "#374151", 
         hoverBlue: "#1d4ed8",
         blue:"#076BB2",
+        black:"#000000",
       },
 
       fontFamily: {
