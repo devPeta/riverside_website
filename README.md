@@ -1,0 +1,2 @@
+# riverside_website
+A modern and responsive hotel booking website built with React, TypeScript, and Tailwind CSS. The site features a clean and intuitive user interface, allowing visitors to explore room options, view amenities, check availability, and make reservations. Designed with scalability and performance in mind, the project showcases a component-based architecture, strong type safety, and efficient styling using utility-first CSS. Perfect for real-world hotel businesses.
