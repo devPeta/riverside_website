@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import NavBar from './components/Navbar'
 import AboutUs from './components/AboutUs'
@@ -7,11 +6,13 @@ import OurEvents from './components/OurEvents'
 import OurCusine from './components/OurCusine'
 import ContactUs from './components/ContactUs'
 import Footer from './components/Footer'
+import BackImage from './components/BackImg'
 
 function App() {
 return(
     <div>
       <NavBar/>
+      <BackImage/>
       <AboutUs/>
       <OurRooms/>
       <OurEvents/>
