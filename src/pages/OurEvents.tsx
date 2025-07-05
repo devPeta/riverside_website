@@ -1,4 +1,4 @@
-import EventCards from "./EventCards";
+import EventCards from "../components/EventCards";
 import eImg from '../assets/eImg.png';
 
 function OurEvents() {

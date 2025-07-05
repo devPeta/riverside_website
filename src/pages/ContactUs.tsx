@@ -1,4 +1,4 @@
-import InputTextField from "./InputTextField";
+import InputTextField from "../components/InputTextField";
 
 function ContactUs() {
 return(

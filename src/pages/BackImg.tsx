@@ -1,5 +1,5 @@
 import bgImage from '../assets/image.png';
-import ImageCard from './ImageCard';
+import ImageCard from '../components/ImageCard';
 
 function BackImage() {
   return (
