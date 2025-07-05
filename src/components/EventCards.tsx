@@ -9,7 +9,7 @@ interface EventCardProps {
 
 const EventCards: React.FC<EventCardProps> = ({ title, subtitle, date, Img }) => {
   return (
-    <div className="bg-white rounded-lg shadow-sm overflow-hidden w-full max-w-sm">
+    <div className="bg-white rounded-lg shadow-md overflow-hidden w-full max-w-sm">
       <div className="relative">
         {Img && (
           <img
