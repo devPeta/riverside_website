@@ -3,7 +3,7 @@ import React from 'react';
 interface ImageCardProps {
   title: string;
   subtitle: string;
-  backgroundColor?: string; // Tailwind class like 'bg-brand' or 'bg-white'
+  backgroundColor?: string; 
 }
 
 const ImageCard: React.FC<ImageCardProps> = ({ title, subtitle, backgroundColor = 'bg-white' }) => {
