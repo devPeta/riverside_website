@@ -9,7 +9,7 @@ interface EventCardProps {
 
 const EventCards: React.FC<EventCardProps> = ({ title, subtitle, date, Img }) => {
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden w-full max-w-sm">
+    <div className="bg-white rounded-lg shadow-md overflow-hidden min-w-[250px] max-w-sm mr-4">
       <div className="relative">
         {Img && (
           <img
@@ -26,9 +26,9 @@ const EventCards: React.FC<EventCardProps> = ({ title, subtitle, date, Img }) =>
         )}
       </div>
 
-      <div className="p-4 mt-8">
+      <div className="p-4">
         <h2 className="text-lg font-bold text-darkText">{title}</h2>
-        <p className="text-black mt-2 ">{subtitle}</p>
+        <p className="text-black mt-2">{subtitle}</p>
       </div>
     </div>
   );
